@@ -2,12 +2,14 @@
   "investigaciones": [
     {
       "id": 1,
-      "inspeccionNro": 12548975,
-      "siniestroNro": 21548,
+      "investigacionNro": 12548975,
       "polizaNro": 3251,
       "estado": "Pendiente",
       "fechaDeSolicitud": "24/11/2021",
+      "fechaRealizada": "24/10/2022",
+      "importeTotal": 5000,
       "inspector": "Juan Perez",
+      "preLiquidacionNro": 1
       "comentario": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
       "datosSiniestro": {
         "siniestroNro": 21548,
@@ -87,11 +89,13 @@
     },
     {
       "id": 2,
-      "inspeccionNro": 12344321,
-      "siniestroNro": 22500,
+      "investigacionNro": 12344321,
       "polizaNro": 3300,
       "estado": "Realizada",
-      "fechaDeSolicitud": "05/10/2021",
+      "fechaDeSolicitud": "15/10/2021",
+      "fechaRealizada": "14/10/2022",
+      "importeTotal": 5000,
+      "preLiquidacionNro": 2,
       "inspector": "Lionel Messi",
       "comentario": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
       "datosSiniestro": {
@@ -157,6 +161,93 @@
           "descripcion": "Fotos Daños Vehículos Asegurados"
         }
       ]
-    }
+    },
+{
+      "id": 3,
+      "investigacionNro": 12543640,
+      "polizaNro": 3253,
+      "estado": "Observada",
+      "fechaDeSolicitud": "12/03/2021",
+      "fechaRealizada": "30/09/2022",
+      "importeTotal": 6000,
+      "inspector": "Elon Musk",
+      "preLiquidacionNro": 3
+      "comentario": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "datosSiniestro": {
+        "siniestroNro": 23650,
+        "rama": "automoviles",
+        "idOperacion": "24/11/2021",
+        "fechaSiniestro": "27/11/2021",
+        "horaSiniestro": "15:00 PM",
+        "fechaDenuncia": "20/11/2021",
+        "causa": "-----",
+        "estadoSiniestro": "-----"
+      },
+      "datosAsegurado": {
+        "asegurado": 21548,
+        "tipoDocumento": "DNI",
+        "nroDocumento": 258947125,
+        "cuit": "2-25894123",
+        "telefono": 1128784592,
+        "direccion": "Gracia 547 7A",
+        "localidad": "Nuñez",
+        "provincia": "C.A.B.A",
+        "codigoPostal": 2015,
+        "sufijoCP": "-----"
+      },
+      "datosPoliza": {
+        "polizaNro": 21548,
+        "rama": "Automoviles",
+        "fechaFacturacion": "25/10/2021",
+        "productor": "-----",
+        "nivelProductor": "-----",
+        "fechaDenuncia": "09/08/2021",
+        "vigenciaDesde": "-----",
+        "vigenciaHasta": "-----",
+        "cobertura": "-----",
+        "sumaAsegurada": "-----",
+        "valorFranquicia": "-----",
+        "articulo": 12,
+        "nroOperacion": 1234,
+        "nroSuperpoliza": 1234,
+        "suplementoSuperpoliza": 1234
+      },
+      "datosVehiculo": {
+        "marca": "Honda",
+        "modelo": "Civic",
+        "submodelo": "Comfort",
+        "anio": 2018,
+        "tipoPatente": "-----",
+        "patente": "-----",
+        "motor": 2.0,
+        "chasis": "-----",
+        "tipoVehiculo": "Sedan",
+        "uso": "particular",
+        "carroceria": "-----",
+        "motorizacion": "-----"
+      },
+      "documentos": [
+        {
+          "dato": "esto debe ser un string de un pdf en base64",
+          "descripcion": "Denuncia Administrativa Asegurado"
+        },
+        {
+          "dato": "esto debe ser un string de un pdf en base64",
+          "descripcion": "Fotos Daños Vehículos Asegurados"
+        },
+        {
+          "dato": "esto debe ser un string de un pdf en base64",
+          "descripcion": "DNI O CUIT Asegurado"
+        },
+        {
+          "dato": "esto debe ser un string de un pdf en base64",
+          "descripcion": "Denuncia Policial"
+        },
+        {
+          "dato": "esto debe ser un string de un pdf en base64",
+          "descripcion": "Consulta de Poliza"
+        }
+      ]
+    },
   ]
 }
