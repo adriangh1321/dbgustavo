@@ -246,5 +246,45 @@
         }
       ]
     }
+  ],
+  "preliquidaciones": [
+    {
+      "id": 1,
+      "preLiquidacionNro": 12548975,
+      "fecha": "24/11/2021",
+      "beneficiario": 3251,
+      "importe": 23000,
+      "estado": "Pendiente",
+      "investigacionesAsociadas": [
+        {
+          "investigacionNro": 12548975,
+          "fecha": "15/08/2021",
+          "siniestro": 3251,
+          "poliza": null,
+          "asegurado": null,
+          "importeTotal": null
+        },
+        {
+          "investigacionNro": 12345678,
+          "fecha": "01/03/2021",
+          "siniestro": 1234,
+          "poliza": null,
+          "asegurado": null,
+          "importeTotal": null
+        },
+        {
+          "investigacionNro": 87654321,
+          "fecha": "25/05/2021",
+          "siniestro": 4321,
+          "poliza": null,
+          "asegurado": null,
+          "importeTotal": null
+        }
+      ],
+      "facturaAsociada": {
+        "dato": "base64 string",
+        "descripcion": "Factura por Investigaciones"
+      }
+    }
   ]
 }
