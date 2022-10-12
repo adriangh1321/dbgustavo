@@ -3,13 +3,12 @@
     {
       "id": 1,
       "investigacionNro": 12548975,
-      "polizaNro": 3251,
       "estado": "Pendiente",
       "fechaDeSolicitud": "24/11/2021",
       "fechaRealizada": "24/10/2022",
       "importeTotal": 5000,
       "inspector": "Juan Perez",
-      "preLiquidacionNro": 1
+      "preLiquidacionNro": 1,
       "comentario": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
       "datosSiniestro": {
         "siniestroNro": 21548,
@@ -90,7 +89,6 @@
     {
       "id": 2,
       "investigacionNro": 12344321,
-      "polizaNro": 3300,
       "estado": "Realizada",
       "fechaDeSolicitud": "15/10/2021",
       "fechaRealizada": "14/10/2022",
@@ -165,13 +163,12 @@
 {
       "id": 3,
       "investigacionNro": 12543640,
-      "polizaNro": 3253,
       "estado": "Observada",
       "fechaDeSolicitud": "12/03/2021",
       "fechaRealizada": "30/09/2022",
       "importeTotal": 6000,
       "inspector": "Elon Musk",
-      "preLiquidacionNro": 3
+      "preLiquidacionNro": 3,
       "comentario": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
       "datosSiniestro": {
         "siniestroNro": 23650,
